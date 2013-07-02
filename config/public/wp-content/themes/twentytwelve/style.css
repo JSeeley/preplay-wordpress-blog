@@ -740,7 +740,7 @@ footer
 }
 
 .footerlinks li:before {
-content: " | HELLO!!! ";
+content: " | ";
 }
 
 .footerlinks li:first-child:before {
