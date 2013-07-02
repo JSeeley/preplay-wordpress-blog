@@ -185,12 +185,16 @@ img {
 .widget-title,
 .entry-content th,
 .comment-content th {
-	font-size: 11px;
-	font-size: 0.785714286rem;
+	font-size: 18px;
 	line-height: 2.181818182;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #636363;
+}
+
+#menu-popular-posts a {
+	font-size: 14px;
+	color: #70B43F;
 }
 
 /* Shared Post Format styling */
@@ -359,11 +363,11 @@ video {
 .widget img,
 img.header-image,
 .author-avatar img,
-img.wp-post-image {
-	/* Add fancy borders to all WordPress-added images but not things like badges and icons and the like */
+/*img.wp-post-image {
+	 Add fancy borders to all WordPress-added images but not things like badges and icons and the like 
 	border-radius: 3px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-}
+}*/
 .wp-caption {
 	max-width: 100%; /* Keep wide captions from overflowing their container. */
 	padding: 4px;
@@ -433,6 +437,7 @@ img.wp-smiley,
 	float: left;
 	width: 50%;
 }
+
 .nav-next,
 .next-image {
 	float: right;
@@ -444,6 +449,30 @@ img.wp-smiley,
 	margin: 48px 0;
 	margin: 3.428571429rem 0;
 }
+
+
+/* TOP RIGHT NAV */
+/*.nav{
+	display:block;
+	float:right;
+}
+
+.navlist li{
+	float:left;
+	margin: 95px 10px 0px 10px;
+}
+*/
+
+.nav{
+	float:right;
+	display:block;
+}
+.navlist li{
+	float:left;
+	margin-left: 25px;
+	margin-top: 45px;
+}
+
 
 /* Author profiles */
 .author .archive-header {
@@ -489,14 +518,15 @@ body {
 	color: #444;
 }
 body.custom-font-enabled {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 a {
 	outline: none;
-	color: #21759b;
+	color: #70B43F;
+	text-decoration: none;
 }
 a:hover {
-	color: #0f3647;
+	color: #9C9597;
 }
 
 /* Assistive text */
@@ -537,6 +567,10 @@ a:hover {
 	margin: 1.714285714rem 0 0;
 }
 
+.sep {
+	color: #9C9597;
+}
+
 /* Header */
 .site-header {
 	padding: 24px 0;
@@ -571,15 +605,15 @@ a:hover {
 	color: #757575;
 }
 .header-image {
-	margin-top: 24px;
-	margin-top: 1.714285714rem;
+	margin-top: 0px;
+	/*margin-top: 1.714285714rem;*/
 }
 
 /* Navigation Menu */
 .main-navigation {
 	margin-top: 24px;
 	margin-top: 1.714285714rem;
-	text-align: center;
+	/*text-align: center;*/
 }
 .main-navigation li {
 	margin-top: 24px;
@@ -587,12 +621,16 @@ a:hover {
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 1.42857143;
+	float: right;
+	/*background-image:url('http://www.preplaysports.com/img/nav/empty.png');
+	text-align: center;
+	background-size:cover;*/
 }
 .main-navigation a {
 	color: #5e5e5e;
 }
 .main-navigation a:hover {
-	color: #21759b;
+	color: #70B43F;
 }
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
@@ -659,14 +697,16 @@ footer[role="contentinfo"] {
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 2;
-	max-width: 960px;
-	max-width: 68.571428571rem;
+	/*max-width: 960px;*/
+	/*max-width: 68.571428571rem;*/
 	margin-top: 24px;
 	margin-top: 1.714285714rem;
-	margin-left: auto;
-	margin-right: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
 	padding: 24px 0;
 	padding: 1.714285714rem 0;
+	background-color: #EBEBEB;
+	height: 100px;
 }
 footer[role="contentinfo"] a {
 	color: #686868;
@@ -675,7 +715,46 @@ footer[role="contentinfo"] a:hover {
 	color: #21759b;
 }
 
+footer
 
+.footercontainer {
+	max-width: 960px;
+	margin: auto;
+}
+
+.icons {
+	float:left;
+}
+
+.icons ul li {
+	display: inline;
+}
+
+.footerlinks {
+	margin-left: 10%;
+	float:left;
+}
+.footerlinks li{
+	text-decoration: none;
+	display: inline;
+}
+
+.footerlinks li:before {
+content: " | ";
+}
+
+.footerlinks li:first-child:before {
+content: none;
+}
+
+.contact{
+	float:right;
+}
+
+.bottomtext {
+	clear: both;
+	text-align: center;
+}
 /* =Main content and comment content
 -------------------------------------------------------------- */
 
@@ -694,10 +773,16 @@ footer[role="contentinfo"] a:hover {
 	font-size: 20px;
 	font-size: 1.428571429rem;
 	line-height: 1.2;
-	font-weight: normal;
+	font-weight: bold;
+	color: black;
 }
 .entry-header .entry-title a {
 	text-decoration: none;
+	color: black;
+}
+
+.entry-header .entry-title a:hover{
+	color:#70B43F;
 }
 .entry-header .entry-format {
 	margin-top: 24px;
@@ -711,6 +796,7 @@ footer[role="contentinfo"] a:hover {
 	font-size: 0.928571429rem;
 	line-height: 1.846153846;
 	color: #757575;
+	display:none;
 }
 .comments-link a,
 .entry-meta a {
@@ -874,7 +960,7 @@ article.sticky .featured-post {
 .comment-content dfn,
 .entry-content acronym,
 .comment-content acronym {
-	border-bottom: 1px dotted #666;
+	border-bottom: 1px solid #666;
 	cursor: help;
 }
 .entry-content address,
@@ -945,7 +1031,7 @@ img.aligncenter {
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-	border-bottom: 4px double #ededed;
+	border-bottom: 2px solid #ededed;
 	margin-bottom: 72px;
 	margin-bottom: 5.142857143rem;
 	padding-bottom: 24px;
@@ -968,7 +1054,7 @@ footer.entry-meta {
 	color: #757575;
 }
 .single-author .entry-meta .by-author {
-	display: none;
+	/*display: none; Showing Author*/
 }
 .mu_register h2 {
 	color: #757575;
@@ -1459,8 +1545,8 @@ img#wpstats {
 	}
 	.main-navigation ul.nav-menu,
 	.main-navigation div.nav-menu > ul {
-		border-bottom: 1px solid #ededed;
-		border-top: 1px solid #ededed;
+		border-bottom: 2px solid #ededed;
+		border-top: 2px solid #ededed;
 		display: inline-block !important;
 		text-align: left;
 		width: 100%;
@@ -1535,7 +1621,30 @@ img#wpstats {
 	.entry-header .entry-title {
 		font-size: 22px;
 		font-size: 1.571428571rem;
+		margin-bottom: 7px;
 	}
+.entry-date {
+	text-decoration: none;
+	color: #9C9597;
+}
+
+time {
+	color: #9C9597;
+}
+
+.entry-date:hover {
+	color: #70B43F;
+	text-decoration: none;
+}
+
+.url {
+	text-decoration:none;
+	color: #9C9597;
+}
+.url:hover {
+	color: #70B43F;
+}
+
 	#respond form input[type="text"] {
 		width: 46.333333333%;
 	}
@@ -1561,6 +1670,11 @@ img#wpstats {
 		width: 51.875%;
 		margin-bottom: 24px;
 		margin-bottom: 1.714285714rem;
+	}
+
+	.widget-area {
+		border-left: 2px solid #ededed;
+		padding-left: 15px;
 	}
 	.template-front-page .widget-area .widget:nth-child(odd) {
 		clear: right;
