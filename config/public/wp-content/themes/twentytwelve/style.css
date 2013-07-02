@@ -740,7 +740,7 @@ footer
 }
 
 .footerlinks li:before {
-content: " | ";
+content: " | TEST!!! ";
 }
 
 .footerlinks li:first-child:before {
