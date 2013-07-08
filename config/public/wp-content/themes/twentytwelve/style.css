@@ -827,7 +827,7 @@ footer
 }
 
 .footerlinks li:before {
-	content: " | ";
+	content: " | test july 8 2013";
 }
 
 .footerlinks li:first-child:before {
