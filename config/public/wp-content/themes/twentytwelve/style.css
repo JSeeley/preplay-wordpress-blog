@@ -472,8 +472,11 @@ img.wp-smiley,
 	margin-top: 45px;
 }
 
+.navlist li:nth-child(1) {
+	float: left;
+}
 .navlist li:nth-child(2) {
-	margin-left: 47px;
+	float: right;
 }
 
 #menu-navigation {
