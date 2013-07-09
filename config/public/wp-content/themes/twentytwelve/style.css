@@ -471,6 +471,10 @@ img.wp-smiley,
 	margin-bottom: 20px;
 }
 
+.navlist li img {
+	/*height: 50%;*/
+}
+
 .navlist li:nth-child(1) {
 	float: left;
 }
@@ -1603,6 +1607,14 @@ img#wpstats {
 		clear:both;
 	}
 
+	.navlist ul li img{
+		width: 80%;
+	}
+
+	.navlist li:nth-child(1) {
+	margin-left: 5%;
+}
+
 }
 
 /* Minimum width of 600 pixels. */
@@ -1631,6 +1643,17 @@ footer[role="contentinfo"] {
 	float:left;
 	margin-left: 0px;
 }
+
+.nav{
+	display:block;
+	float: right;
+}
+.navlist li {
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+
+
 .navlist li:nth-child(2) {
 	margin-left: 20px;
 }
