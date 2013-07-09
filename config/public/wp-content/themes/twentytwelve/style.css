@@ -548,6 +548,8 @@ a:hover {
 	color: #9C9597;
 }
 
+
+
 /* Assistive text */
 .assistive-text,
 .site .screen-reader-text {
@@ -1615,6 +1617,13 @@ img #wpstats {
 
 	.icons {
 		display:none;
+	}
+
+	.footerlinks {
+		text-align: center;
+	}
+	.contact {
+		width: 55%;
 	}
 
 }
