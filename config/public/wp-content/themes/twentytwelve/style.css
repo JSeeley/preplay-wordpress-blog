@@ -690,8 +690,7 @@ a:hover {
 		color: #70B43F;
 	}
 	.main-navigation li {
-		margin: 0 40px 0 0;
-		margin: 0 2.857142857rem 0 0;
+		margin: 0 20px 0 0;
 		position: relative;
 	}
 	.main-navigation li ul {
