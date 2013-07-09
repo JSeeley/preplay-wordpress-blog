@@ -807,6 +807,7 @@ footer[role="contentinfo"] {
 	padding: 1.714285714rem 0;
 	background-color: #EBEBEB;
 	height: 150px;
+	width: 100%;
 }
 footer[role="contentinfo"] a {
 	color: #686868;
@@ -818,7 +819,7 @@ footer[role="contentinfo"] a:hover {
 footer
 
 .footercontainer {
-	max-width: 960px;
+	max-width: 75%;
 	margin: auto;
 }
 
@@ -830,10 +831,10 @@ footer
 	display: inline;
 }
 
-.footerlinks {
+/*.footerlinks {
 	margin-left: 115px;
 	display:inline-block;
-}
+}*/
 
 .footerlinks li{
 	text-decoration: none;
@@ -848,14 +849,9 @@ footer
 	content: none;
 }
 
-.contact{
+/*.contact{
 	margin-left: 75px;
-}
-
-.bottomtext {
-	clear: both;
-	text-align: center;
-}
+}*/
 /* =Main content and comment content
 -------------------------------------------------------------- */
 
@@ -1620,11 +1616,14 @@ img #wpstats {
 	}
 
 	.footerlinks {
-		text-align: center;
-	}
+	text-align: center;
+	display: block;
+}
+
 	.contact {
-		width: 55%;
-	}
+	display: block;
+	text-align: center;
+}
 
 }
 
