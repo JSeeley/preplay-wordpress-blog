@@ -464,17 +464,17 @@ img.wp-smiley,
 */
 
 .nav{
-	float:right;
 	display:block;
 }
 .navlist li{
-	float:left;
 	margin-top: 45px;
+	margin-bottom: 20px;
 }
 
 .navlist li:nth-child(1) {
 	float: left;
 }
+
 .navlist li:nth-child(2) {
 	float: right;
 }
@@ -830,7 +830,7 @@ footer
 }
 
 .footerlinks li:before {
-	content: " | ";
+	content: " | Test july 8";
 }
 
 .footerlinks li:first-child:before {
