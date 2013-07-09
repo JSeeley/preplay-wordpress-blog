@@ -839,7 +839,7 @@ footer
 }
 
 .footerlinks li:before {
-	content: " | Test july 8";
+	content: " | ";
 }
 
 .footerlinks li:first-child:before {
@@ -1603,13 +1603,18 @@ img #wpstats {
 /* =Media queries
 -------------------------------------------------------------- */
 
-/* Maximum wodth of 480 */
+/* Maximum width of 480 */
 @media screen and (min-width: 200px) and (max-width: 480px){
 
 	.nav {
 		margin-bottom: 20px;
 		clear:both;
 		margin: 20px auto;
+		display: none;
+	}
+
+	.icons {
+		display:none;
 	}
 
 }
