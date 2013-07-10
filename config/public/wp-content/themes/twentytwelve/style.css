@@ -671,15 +671,27 @@ a:hover {
 		display: inline-block !important;
 		text-align: left;
 		width: 100%;
+		font: helvetica;
 	}
 	.main-navigation ul {
 		margin: 0;
 		text-indent: 0;
 	}
+	
+	/*Adding breaks before the categories*/
+	/*.main-navigation li:before {
+		content: " | ";
+	}
+
+	.main-navigation li:first-child:before {
+		content: none;
+	}*/
+
 	.main-navigation li a,
 	.main-navigation li {
 		display: inline-block;
 		text-decoration: none;
+		font: helvetica;
 	}
 	.main-navigation li a {
 		border-bottom: 0;
@@ -687,6 +699,7 @@ a:hover {
 		line-height: 3.692307692;
 		text-transform: uppercase;
 		white-space: nowrap;
+		font: helvetica;
 	}
 	.main-navigation li a:hover {
 		color: #70B43F;
@@ -792,7 +805,7 @@ section[role="banner"] {
 
 /* Footer */
 footer[role="contentinfo"] {
-	border-top: 1px solid #ededed;
+	border-top: 2px solid #70B43F;
 	clear: both;
 	font-size: 12px;
 	font-size: 0.857142857rem;
