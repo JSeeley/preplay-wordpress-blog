@@ -849,18 +849,44 @@ footer
 	display:inline-block;
 }*/
 
+.footerlinks {
+	clear: both;
+}
+
 .footerlinks li{
 	text-decoration: none;
 	display: inline;
 }
 
+
 .footerlinks li:before {
 	content: " | ";
 }
 
-.footerlinks li:first-child:before {
+.footerlinks li:nth-child(2):before {
 	content: none;
 }
+
+.mobiledownload {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+
+.mobiledownload li{
+	float: left;
+	display: block;
+	text-align: center;
+}
+
+.mobiledownload li:nth-child(2) {
+	margin-left: 20px;
+}
+
+/*
+.footerlinks li:first-child:before {
+	content: none;
+}*/
 
 /*.contact{
 	margin-left: 75px;
@@ -1858,6 +1884,7 @@ time {
 		margin: 0 0 24px;
 		margin: 0 0 1.714285714rem;
 	}
+
 	.template-front-page.two-sidebars .widget,
 	.template-front-page.two-sidebars .widget:nth-child(even) {
 		float: none;
@@ -1869,17 +1896,26 @@ time {
 	}
 
 	.footerlinks {
-	margin-left: 10%;
-	float:left;
+	text-align: center;
 }
 .footerlinks li{
 	text-decoration: none;
 	display: inline;
 }
-.contact {
-	float:right;
+
+.mobiledownload {
+	display:none;
 }
 
+.contact {
+	position: absolute;
+	right: 15%;
+}
+
+.icons {
+	position: absolute;
+	left: 15%;
+}
 
 /* CHANGES JUSTIN HAS MADE */
 

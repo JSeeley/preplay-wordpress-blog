@@ -23,10 +23,14 @@
 					<li><a href="https://itunes.apple.com/us/app/preplay/id391372543?mt=8"><img src="https://preplay_blog.s3.amazonaws.com/nhl.png"></a></li>
 				</ul>
 			</div>
+			<div class="mobiledownload">
+					<a href="https://itunes.apple.com/us/artist/pre-play-sports/id391372546"><img src="https://preplay_blog.s3.amazonaws.com/appstoremini.png"></a>
+					<a href="https://play.google.com/store/apps/developer?id=PrePlay,+Inc."><img src="https://preplay_blog.s3.amazonaws.com/playstoremini.png"</a>
+			</div>
 			<div class="footerlinks">
 				<ul>
-					<li><a href="http://blog.preplaysports.com/privacy-policy" target="_blank">Privacy Policy</a></li>
-					<li><a href="http://blog.preplaysports.com/terms-of-use" target="_blank">Terms of Service</a></li>
+					<li><a href="http://blog.preplaysports.com/privacy-policy" alt="download on iOS" target="_blank">Privacy Policy</a></li>
+					<li><a href="http://blog.preplaysports.com/terms-of-use" alt="download on Android" target="_blank">Terms of Service</a></li>
 				</ul>
 			</div>
 

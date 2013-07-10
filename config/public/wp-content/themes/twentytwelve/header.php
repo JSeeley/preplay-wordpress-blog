@@ -52,8 +52,8 @@
 		<nav class="nav">
 		<div class="navlist">
 				<ul>
-					<li><a href="https://itunes.apple.com/us/artist/pre-play-sports/id391372546"><img src="http://www.jseeley.co/images/appstore.png"></a></li>
-					<li><a href="https://play.google.com/store/apps/developer?id=PrePlay,+Inc."><img src="http://www.jseeley.co/images/androidbutton.png"</a></li>
+					<li><a href="https://itunes.apple.com/us/artist/pre-play-sports/id391372546"><img src="https://preplay_blog.s3.amazonaws.com/appstore.png"></a></li>
+					<li><a href="https://play.google.com/store/apps/developer?id=PrePlay,+Inc."><img src="https://preplay_blog.s3.amazonaws.com/playstore.png"</a></li>
 				</ul>
 			</div>
 		</nav>
