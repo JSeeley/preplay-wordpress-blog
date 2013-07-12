@@ -31,6 +31,8 @@
 				<ul>
 					<li><a href="http://blog.preplaysports.com/privacy-policy" alt="download on iOS" target="_blank">Privacy Policy</a></li>
 					<li><a href="http://blog.preplaysports.com/terms-of-use" alt="download on Android" target="_blank">Terms of Service</a></li>
+					<li><a href="http://blog.preplaysports.com/official-contest-rules" alt="Official Contest Rules" target="_blank">Official Contest Rules</a></li>
+					<li><a href="http://blog.preplaysports.com/2013-mlb-preplay-home-run-derby-promotion" alt="Home Run Derby Promotion" target="_blank">Home Run Derby Promotion</a></li>
 				</ul>
 			</div>
 

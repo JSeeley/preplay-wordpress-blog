@@ -1647,9 +1647,14 @@ img #wpstats {
 		display: none;
 	}
 
+	.navlist {
+		display: none;
+	}
+
 	.icons {
 		display:none;
 	}
+
 
 	.footerlinks {
 	text-align: center;
