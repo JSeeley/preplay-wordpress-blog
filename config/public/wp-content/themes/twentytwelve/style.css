@@ -860,7 +860,7 @@ footer
 	content: " | ";
 }
 
-.footerlinks li:nth-child(2):before {
+.footerlinks li:first-child:before {
 	content: none;
 }
 
@@ -1916,13 +1916,12 @@ time {
 }
 
 .contact {
-	position: absolute;
-	right: 15%;
+	float: right;
+	clear: none;
 }
 
 .icons {
-	position: absolute;
-	left: 15%;
+	float:left;
 }
 
 /* CHANGES JUSTIN HAS MADE */

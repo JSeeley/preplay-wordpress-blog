@@ -27,6 +27,8 @@
 					<a href="https://itunes.apple.com/us/artist/pre-play-sports/id391372546"><img src="https://preplay_blog.s3.amazonaws.com/appstoremini.png"></a>
 					<a href="https://play.google.com/store/apps/developer?id=PrePlay,+Inc."><img src="https://preplay_blog.s3.amazonaws.com/playstoremini.png"</a>
 			</div>
+
+			<a class="contact" href="mailto:contact@preplaysports.com" alt="contact us" class="externalLink" target="_blank"><img src="http://www.preplaysports.com/img/text/talk_to_us.png"></a>
 			<div class="footerlinks">
 				<ul>
 					<li><a href="http://blog.preplaysports.com/privacy-policy" alt="download on iOS" target="_blank">Privacy Policy</a></li>
@@ -36,7 +38,7 @@
 				</ul>
 			</div>
 
-			<a class="contact" href="mailto:contact@preplaysports.com" alt="contact us" class="externalLink" target="_blank"><img src="http://www.preplaysports.com/img/text/talk_to_us.png"></a>
+			
 		</div><!--End of Footer Container-->
 
 
