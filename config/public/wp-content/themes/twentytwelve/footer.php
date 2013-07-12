@@ -18,9 +18,9 @@
 			<div class="footercontainer">
 			<div class="icons">
 				<ul>
-					<li><a href="http://wwww.mlb.preplaysports.com"><img src="https://preplay_blog.s3.amazonaws.com/mlb.png"></a></li>
-					<li><a href="http://nhl.preplaysports.com/"><img src="https://preplay_blog.s3.amazonaws.com/nfl.png"></a></li>
-					<li><a href="https://itunes.apple.com/us/app/preplay/id391372543?mt=8"><img src="https://preplay_blog.s3.amazonaws.com/nhl.png"></a></li>
+					<li><a href="http://mlb.preplaysports.com"><img src="https://preplay_blog.s3.amazonaws.com/mlb.png"></a></li>
+					<li><a href="http://nhl.preplaysports.com/"><img src="https://preplay_blog.s3.amazonaws.com/nhl.png"></a></li>
+					<li><a href="https://itunes.apple.com/us/app/preplay/id391372543?mt=8"><img src="https://preplay_blog.s3.amazonaws.com/nfl.png"></a></li>
 				</ul>
 			</div>
 			<div class="mobiledownload">

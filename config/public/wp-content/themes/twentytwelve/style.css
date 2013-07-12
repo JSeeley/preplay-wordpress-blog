@@ -816,7 +816,7 @@ footer[role="contentinfo"] {
 	padding: 24px 0;
 	padding: 1.714285714rem 0;
 	background-color: #EBEBEB;
-	height: 150px;
+	height: 180px;
 	width: 100%;
 }
 footer[role="contentinfo"] a {
@@ -1669,7 +1669,7 @@ img #wpstats {
 }
 
 /* Minimum width of 600 pixels. */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
 	.author-avatar {
 		float: left;
 		margin-top: 8px;
@@ -1687,7 +1687,7 @@ img #wpstats {
 		overflow: hidden;
 	}
 footer[role="contentinfo"] {
-	height: 100px;
+	height: 125px;
 }
 
 .icons {
