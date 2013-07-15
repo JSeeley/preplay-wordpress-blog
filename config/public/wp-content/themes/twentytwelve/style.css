@@ -631,7 +631,7 @@ a:hover {
 .main-navigation {
 	margin-top: 24px;
 	margin-top: 1.714285714rem;
-	/*text-align: center;*/
+	text-align: center;
 }
 .main-navigation li {
 	margin-top: 24px;
@@ -640,19 +640,16 @@ a:hover {
 	font-size: 0.857142857rem;
 	line-height: 1.42857143;
 	float: right;
-	/*background-image:url('http://www.preplaysports.com/img/nav/empty.png');
-	text-align: center;
-	background-size:cover;*/
 }
 .main-navigation a {
 	color: #5e5e5e;
 }
 .main-navigation a:hover {
-	color:
+	color: #21759b;
 }
 .main-navigation ul.nav-menu,
 .main-navigation div.nav-menu > ul {
-	display: inline-block;
+	display: none;
 }
 .main-navigation ul.nav-menu.toggled-on,
 .menu-toggle {
@@ -702,7 +699,7 @@ a:hover {
 		color: #70B43F;
 	}
 	.main-navigation li {
-		margin: 0 20px 0 0;
+		margin: 0 10px 0 0;
 		position: relative;
 	}
 	.main-navigation li ul {
