@@ -42,6 +42,19 @@ if ( ! isset( $content_width ) )
  * @since Twenty Twelve 1.0
  */
 function twentytwelve_setup() {
+
+/*Test Function to move date*/
+
+	function abyline_posted_on() {
+        $link= esc_url( get_permalink() );
+        $title= esc_attr( get_the_title() );
+        $time= esc_attr( get_the_time() );
+        $dateGMT= esc_attr( get_the_date( 'c' ) );
+        $date= esc_html( get_the_date() );
+        $authorURL= esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) );
+        $author= esc_html( get_the_author() );
+        echo ('<span class="sep">Posted on</span> <a href="'.$link.'" title="'.$title.'" rel="bookmark"><time class="entry-date" datetime="%3$s" pubdate>'.$date.'</time></a> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="'.$authorURL.'" title="'.$author.'" rel="author">'.$author.'</a></span>');
+    }
 	/*
 	 * Makes Twenty Twelve available for translation.
 	 *
