@@ -526,12 +526,12 @@ img.wp-smiley,
 
 @font-face {
 	font-family: "TradeGothicLT";
-	src: url('../images/TradeGothicLT.ttf');
+	src: url('images/TradeGothicLT.ttf');
 }
 
 @font-face {
 	font-family: "TradeGothicLTBold";
-	src: url('../images/TradeGothicLTBold.ttf');
+	src: url('images/TradeGothicLTBold.ttf');
 }
 
 /* Body, links, basics */
