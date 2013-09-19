@@ -522,6 +522,18 @@ img.wp-smiley,
 /* =Basic structure
 -------------------------------------------------------------- */
 
+/* Font */
+
+@font-face {
+	font-family: "TradeGothicLT";
+	src: url('../images/TradeGothicLT.ttf');
+}
+
+@font-face {
+	font-family: "TradeGothicLTBold";
+	src: url('../images/TradeGothicLTBold.ttf');
+}
+
 /* Body, links, basics */
 html {
 	font-size: 87.5%;
@@ -529,7 +541,7 @@ html {
 body {
 	font-size: 14px;
 	font-size: 1rem;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: TradeGothicLTBold;
 	text-rendering: optimizeLegibility;
 	color: #444;
 }
